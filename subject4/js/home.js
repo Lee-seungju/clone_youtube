@@ -10,7 +10,5 @@ function moveDetail(id) {
 
 function showPopup(id) {
 	var title = encodeURI(encodeURIComponent(document.getElementById(id).value));
-
-	console.log("aaa");
 	window.open("title.html?title=" + title, "popup", "width=400,height=300,left=100,top=50");
 }
